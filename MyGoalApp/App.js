@@ -30,7 +30,7 @@ export default function App() {
     setEnteredGoalText('');
   };
 
-  const deleteGoal = () => {
+  const deleteGoal = (index) => {
     const updatedGoals = [...courseGoal]
     updatedGoals.splice(index, 1);
     setCourseGoal(updatedGoals);
@@ -100,7 +100,4 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     fontSize: 28,
   },
-  button: {
-    width: '30%',
-  }
 });

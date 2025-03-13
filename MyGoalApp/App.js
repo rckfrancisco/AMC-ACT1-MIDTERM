@@ -44,7 +44,7 @@ export default function App() {
 
   return(
     <View>
-      <View>
+      <View style={styles.container}>
         <TextInput
         style={styles.input}
         placeholder = "My Goal"

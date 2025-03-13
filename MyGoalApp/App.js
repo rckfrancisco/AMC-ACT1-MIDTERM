@@ -74,11 +74,19 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
+  container: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    padding: 10,
+  },
   input: {
+    width: '70%',
     height: 40,
     margin: 12,
     borderWidth: 1,
     padding: 10,
+    horizontal: 10,
   },
   inputText: {
     textAlign: 'center',
@@ -92,4 +100,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     fontSize: 28,
   },
+  button: {
+    width: '30%',
+  }
 });
